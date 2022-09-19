@@ -1,0 +1,724 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Box-sizing -*/
+* {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+/* Immagini responsive */
+img { 
+ border:0; 
+	vertical-align:middle; 
+	-ms-interpolation-mode:bicubic;
+}
+ 
+img.scala { 
+ max-width:100%; 
+	height: auto;
+	width: auto; 
+}
+
+/* Stili di base e tipografia */
+
+
+
+a {
+ color: #FFF;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #666666;
+ text-decoration: none;
+}
+
+a.firma {
+ color: #FFFFFF;
+ text-decoration: none;
+}
+
+a.firma:hover {
+ color: #666666;
+ text-decoration: none;
+}
+
+a.wp{
+ color: #FFFFFF;
+ text-decoration: none;	
+}
+a.wp:hover{
+ color: #e38813;
+ text-decoration: none;	
+}
+
+a.farm{
+ color: #e38813;
+ text-decoration: none;	
+}
+a.farm:hover{
+ color: #ff008a;
+ text-decoration: none;	
+}
+
+h1, h2, h3, h4, h5, h6 { 
+font-family: Helvetica, "sans-serif";
+} 
+
+.button {
+	width: 120px;
+	height: 35px;
+    background-color:#e38813;
+    color: #fff;
+    border:none;
+    border-radius:12px;
+	font-weight: 600;
+	font-size: 14px;
+	cursor: pointer;
+  }
+.button:hover {
+    background-color:#000000;
+    border:solid 1px #e38813;
+ }
+
+/* Griglia */
+
+.contenitore {
+ 	width:1110px; 
+	margin:0 auto; 
+	padding:0; 
+	position:relative;
+	font-size: 16px;
+}
+
+.riga {
+ float:left;
+ width: 100%;
+ margin: 0 0 0 0;
+}
+.spaziatura {
+	display: none;
+	position:relative; 
+	height: 305px;
+}
+
+/* Stili  per le varie sezioni */
+headerdesk {
+ top: 0px;
+ left: 0px;
+ width: 100%;
+ height: 63px;
+ display: block;
+ position: absolute;
+ background-image:url(../imgTail/80trasp.png);
+ font-weight: 300;
+ z-index: 97;
+}
+headermobile {
+ display: none;
+ /*background-color: #262127;*/
+ background-image:url(../imgTail/80trasp.png);
+ border-bottom:1px solid #000000;
+ width: 100%;
+ height: 63px;
+ position:fixed;
+ z-index: 97;
+}
+buynowMobile {
+ display: none;
+}
+a.attiva-nav {
+ 	display: block;
+	position:absolute;
+	right:5px;
+	top:4px;
+	color: #FFFFFF;
+	/*background: #000000;*/
+	text-decoration: none;
+	padding: 10px;
+	line-height: 0px;
+	height: 25px;
+}
+#logoMobile a {
+	display: none;
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index: 100;
+}
+#logo a {
+	display: block;
+	
+}
+
+nav {
+ 	clear: both;
+ 	position: absolute;
+	top: 63px;
+	width: 100%;
+	z-index: 96;
+	background-image: url(../imgTail/90trasp.png);
+	background-size: cover;
+	color:#FFF;
+	font-family: Helvetica, "sans-serif";
+	font-style: normal;
+	font-size: 16px;
+	padding: 0;
+	display: none;
+}
+
+nav ul, nav li {
+ margin: 0;
+ padding: 0;
+}
+
+nav ul li {
+ list-style: none;
+ float: right;
+ margin-right: 0px;
+}
+
+nav ul li a {
+ display: block;
+ padding: 2px;
+}
+
+a.attiva-nav {
+ display: none;
+}
+slideMobile {
+	display:none;
+}
+ul>li{
+list-style-image: url(../imgTail/il.png);
+}
+.earningImg{
+	width: 296px;
+	height: 472px;
+	float:right;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.earningImgMobile{
+	display: none;
+}
+.taxImg{
+	width: 260px;
+	height: 418px;
+	float:left;
+	padding-left: 0px;
+	padding-right: 30px;
+}
+.taxImgMobile{
+	display: none;
+}
+/* FIRMA*/
+.gallery-item{
+	float:left;
+	width: 155px;
+	height: 120px;
+	padding: 15px;
+}
+.gallery-item2{
+	float:left;
+	width: 190px;
+	height: 140px;
+	padding: 5px;
+}
+.gallery-icon{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+.spaziatura{
+	padding-top:38px; 
+}
+.tdfont{
+	color:#FFF; font-size: 20px; font-weight: 200; text-align: center; line-height: 40px;
+}
+.alltail{
+	margin-left:18%;
+}
+.allsanin{
+	right:15%;
+}
+.alltxtSanin{
+	margin-left:8%;
+	width: 600px; 
+}
+.allSanin{
+	right:8%;
+}
+.cTXT{
+	width: 65%;
+	text-align: left;
+}
+.cIMG{
+	width: 30%;
+}
+.distBottom{
+	display: none;
+}
+.toDivis{
+	float:left; 
+	width: 1px; 
+	height: 180px; 
+	background-color: #333333;
+}	
+.toTXT{
+	width: 24%; 
+	float: left; 
+	padding: 15px;	
+}
+.numberBuy{
+	float: left;
+	width: 25%;
+	min-height: 150px;
+	line-height: 160px;
+	text-align: center;
+	font-size: 90px; 
+	font-weight: 800;
+}
+.txtBuy{
+	float: right;
+	width: 75%;
+	min-height: 150px;
+	padding-top: 20px;
+}
+.buyDivs{
+	float:left; 
+	width: 100%; 
+	height: 1px; 
+	background-color: #333333;
+}	
+@media only screen and (min-width:1000px) and (max-width:1280px) {
+.alltail{
+	margin-left:10%;
+}
+.allsanin{
+	right:4%;
+}
+.alltxtSanin{
+	margin-left:6%;
+	width: 600px; 
+}
+.allSanin{
+	right:3%;
+}
+.distBottom{
+	display: none;
+}
+.toDivis{
+	float:left; 
+	width: 1px; 
+	height: 180px; 
+	background-color: #333333;
+}	
+.toTXT{
+	width: 24%; 
+	float: left; 
+	padding: 15px;	
+}	
+}
+
+@media only screen and (min-width:981px) and (max-width:1280px) {
+headerdesk {
+font-weight: 300;	
+font-size: 13px;
+}
+.contenitore {
+ 	width:85%; 
+	margin:0 auto; 
+	padding:0; 
+	position:relative;
+	min-width: 770px;
+}
+/* FIRMA*/
+.gallery-item{
+	float:left;
+	width: 125px;
+	height: 100px;
+	padding: 15px;
+}
+.gallery-icon{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+.spaziatura{
+	padding-top:38px; 
+}
+.tdfont{
+	color:#FFF; font-size: 20px; font-weight: 200; text-align: center; line-height: 40px;
+}	
+.alltail{
+	margin-left:10%;
+}
+.allsanin{
+	right:4%;
+}
+.alltxtSanin{
+	margin-left:6%;
+	width: 500px; 
+}
+.allSanin{
+	right:3%;
+}
+.distBottom{
+	display: none;
+}
+.toDivis{
+	float:left; 
+	width: 1px; 
+	height: 180px; 
+	background-color: #333333;
+}	
+.toTXT{
+	width: 24%; 
+	float: left; 
+	padding: 15px;	
+}
+}
+
+@media only screen and (min-width:480px) and (max-width:980px) {
+
+headerdesk {
+		display: none;
+	}
+slideDesk {
+	display:none;
+}
+buynowDesk {
+ display: none;
+}
+headermobile {
+		display: block;
+	}
+slideMobile {
+	display:block;
+}
+buynowMobile {
+ display: block;
+}
+a.attiva-nav {
+ 	display: block;
+}
+#logoMobile a {
+	display: block;
+}
+nav {
+	display: none;
+}
+
+nav a {
+ font-size: 16px;
+ color: #FFFFFF;
+ text-decoration: none;
+}
+
+nav a:hover {
+ font-size: 16px;
+ color: #666666;
+ text-decoration: none;
+}
+
+nav ul {	
+ margin: 0;
+ padding: 0;
+}
+nav ul li {
+ list-style: none;
+ float: none;
+
+}
+
+nav ul li a { 
+ padding: 2px;
+ text-align:right;
+ display: block;
+
+}
+
+.contenitore {
+ 	width:85%; 
+	margin:0 auto; 
+	padding:0; 
+	position:relative;
+	font-size: 15px;
+}
+.spaziatura {
+	display: block;
+	position:relative; 
+	height: 305px;
+}
+.earningImg{
+	display: none;
+}
+.earningImgMobile{
+	display: block;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	float:inherit;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 0 auto;
+}	
+.taxImg{
+	display: none;
+}
+.taxImgMobile{
+	display: block;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	float:inherit;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 0 auto;
+}	
+.tdfont{
+	color:#FFF; font-size: 18px; font-weight: 200; text-align: center; line-height: 35px;
+}
+/* FIRMA*/
+.gallery-item{
+	float:left;
+	width: 115px;
+	height: 80px;
+	padding: 15px;
+}
+.gallery-icon{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+.cTXT{
+	width: 100%;
+	text-align: center;
+}
+.cIMG{
+	width: 100%;
+	padding:30px;
+	text-align: center;
+}
+.dist{
+	display: none;
+}	
+.distBottom{
+	display: block;
+}
+.toDivis{
+	float:left; 
+	width: 95%; 
+	height: 1px; 
+	background-color: #333333;
+}	
+.toTXT{
+	width: 95%; 
+	float: left; 
+	text-align: center;
+	padding: 15px;	
+}
+.numberBuy{
+	float: left;
+	width: 100%;
+	min-height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 50px; 
+	font-weight: 800;
+}
+.txtBuy{
+	float: right;
+	width: 100%;
+	min-height: 150px;
+	padding-top: 0px;
+	text-align: center;
+}
+}
+
+@media only screen and (max-width:479px) {
+
+headerdesk {
+		display: none;
+	}
+slideDesk {
+	display:none;
+}
+buynowDesk {
+ display: none;
+}
+headermobile {
+		display: block;
+	}
+slideMobile {
+	display:block;
+}
+buynowMobile {
+ display: block;
+}
+a.attiva-nav {
+ 	display: block;
+}
+#logoMobile a {
+	display: block;
+}
+nav {
+	display: none;
+}
+
+nav a {
+ font-size: 16px;
+ color: #FFFFFF;
+ text-decoration: none;
+}
+
+nav a:hover {
+ font-size: 16px;
+ color: #666666;
+ text-decoration: none;
+}
+
+nav ul {	
+ margin: 0;
+ padding: 0;
+}
+nav ul li {
+ list-style: none;
+ float: none;
+
+}
+
+nav ul li a { 
+ padding: 2px;
+ text-align:right;
+ display: block;
+
+}
+.button {
+	width: 110px;
+	height: 35px;
+    background-color:#e38813;
+    color: #fff;
+    border:none;
+    border-radius:12px;
+	font-weight: 600;
+	font-size: 12px;
+	cursor: pointer;
+  }
+.contenitore {
+ 	width:85%; 
+	margin:0 auto; 
+	padding:0; 
+	position:relative;
+	font-size: 14px;
+}
+.spaziatura {
+	display: block;
+	position:relative; 
+	height: 305px;
+}
+.earningImg{
+	display: none;
+}
+.earningImgMobile{
+	display: block;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	float:inherit;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 0 auto;
+}
+.taxImg{
+	display: none;
+}
+.taxImgMobile{
+	display: block;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	float:inherit;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 0 auto;
+}
+/* FIRMA*/
+.gallery-item{
+	float:left;
+	width: 120px;
+	height:80px;
+	padding: 15px;
+}
+.gallery-icon{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+
+.spaziatura{
+	padding-top:25px; 
+}
+.tdfont{
+	color:#FFF; font-size: 17px; font-weight: 200; text-align: center; line-height: 30px;
+}
+.cTXT{
+	width: 100%;
+	text-align: center;
+}
+.cIMG{
+	width: 100%;
+	padding:30px;
+}
+.dist{
+	display: none;
+}
+.distBottom{
+	display: block;
+}
+.toDivis{
+	float:left; 
+	width: 95%; 
+	height: 1px; 
+	background-color: #333333;
+}	
+.toTXT{
+	width: 95%; 
+	float: left; 
+	text-align: center;
+	padding: 15px;	
+}
+.numberBuy{
+	float: left;
+	width: 100%;
+	min-height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 50px; 
+	font-weight: 800;
+}
+.txtBuy{
+	float: right;
+	width: 100%;
+	min-height: 150px;
+	padding-top: 0px;
+	text-align: center;
+}
+}
